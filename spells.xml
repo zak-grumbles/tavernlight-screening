@@ -1,0 +1,11 @@
+<!--
+    CHANGES:
+    * This is the xml I created for the 'Frigid Vortex' spell for Q5. I set the
+      level requirement to 8 as that's the default starting level for a new 
+      player and the mana requirement to 10 so I could iterate pretty quickly
+      while testing.
+-->
+<instant group="attack" spellid="179" name="Frigid Vortex" words="frigo" level="8" mana="10" aggressive="1" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="attack/frigid_vortex.lua">
+    <vocation name="Sorcerer"/>
+    <vocation name="Druid"/>
+</instant>
