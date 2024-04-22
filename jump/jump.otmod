@@ -1,0 +1,9 @@
+Module
+  name: jump
+  description: Button clicking minigame
+  author: Grumbles, Zak
+  website: https://github.com/zak-grumbles
+  sandboxed: true
+  scripts: [ jump ]
+  @onLoad: init()
+  @onUnload: terminate()
